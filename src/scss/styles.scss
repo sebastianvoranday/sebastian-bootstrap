@@ -5,8 +5,18 @@
 // $body-color: white;
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
+// Custom variable overrides go here Overrides
+$theme-colors: (
+  "primary": #d95700
+);
+
+$body-bg: #ededed;
 
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+.jumbotron {
+  background-color: #ffffff;
+  border-top: 3px solid rgb(219, 219, 219);
+}
 // Import partials here
